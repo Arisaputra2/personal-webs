@@ -4,13 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Personal Website</title>
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <title>M. Ari Saputra | Portfolio</title>
   </head>
-  <body class="w-full border-3 border-red-900 box-border p-0">
+  <body class="flex">
     <div
-      class="border-2 border-black flex w-full box-border p-3 justify-center"
+      class="navbar bg-blue-600 w-full h-14 box-border flex p-2 justify-evenly"
     >
-      <div class="bg-blue-700 w-10 h-10"></div>
+      <div
+        id="logo"
+        class="flex box-border items-center justify-start p-3 w-full"
+      >
+        <h1 class="text-2xl font-bold">Portfolio</h1>
+      </div>
+      <div
+        id="menu-list"
+        class="flex box-border items-center w-full justify-end"
+      >
+        <ul class="flex p-1.5 justify-end items-center">
+          <li class="ml-6">
+            <p>Home</p>
+          </li>
+          <li class="ml-6">
+            <p>About</p>
+          </li>
+          <li class="ml-6">
+            <p>Project</p>
+          </li>
+          <li class="ml-6">
+            <img
+              class="w-6 h-6"
+              src="https://drive.google.com/file/d/1v9ALDfGHRtBX3bGw0pFtNyINeotv6Ipa/view?usp=sharing"
+              alt="Picture Profile"
+            />
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
