@@ -1,15 +1,28 @@
 {
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.8",
-    "tailwindcss": "^4.1.8"
-  },
   "name": "portfolio",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ari",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arisaputra2/personal-webs.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/Arisaputra2/personal-webs/issues"
+  },
+  "homepage": "https://github.com/Arisaputra2/personal-webs#readme",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.8"
+  }
 }
