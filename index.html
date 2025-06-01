@@ -5,16 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>M. Ari Saputra | Portfolio</title>
   </head>
-  <body class="flex">
+  <body class="flex flex-col w-full">
+    <!-- Navbar -->
     <div
-      class="navbar bg-blue-600 w-full h-14 box-border flex p-2 justify-evenly text-white"
+      class="navbar border-b-1 shadow-2xl shadow-gray-100 border-gray-200 w-full h-14 box-border flex p-6 justify-evenly text-black"
     >
-      <div
-        id="logo"
-        class="flex box-border items-center justify-start p-3 w-full"
-      >
+      <div id="logo" class="flex box-border items-center justify-start w-full">
         <h1 class="text-2xl font-bold">Portfolio</h1>
       </div>
       <div
@@ -22,26 +21,35 @@
         class="flex box-border items-center w-full justify-end"
       >
         <ul class="flex p-1.5 justify-end items-center">
-          <li class="ml-6">
+          <li class="ml-10 flex flex-col">
             <a href="" class="font-medium text-lg">Home</a>
+            <div class="w-full border-1 border-black"></div>
           </li>
-          <li class="ml-6">
+          <li class="ml-10">
             <a href="" class="font-medium text-lg">About</a>
+            <div class="w-full border-1 border-black"></div>
           </li>
-          <li class="ml-6">
+          <li class="ml-10 mr-10">
             <a href="" class="font-medium text-lg">Project</a>
-          </li>
-          <li class="ml-6">
-            <a href="">
-              <img
-                class="w-6 h-full rounded-full"
-                src="img/Picture Profile.jpg"
-                alt="Picture Profile"
-              />
-            </a>
+            <div class="w-full border-1 border-black"></div>
           </li>
         </ul>
       </div>
     </div>
+    <!-- Main Section -->
+    <div
+      id="main"
+      class="container flex w-full p-2 justify-center border-2 border-black box-border mt-5 h-auto"
+    >
+      <div
+        class="header-text w-full border-2 border-black justify-start p-2 mr-5"
+      >
+        <h1 class="text-6xl">Wellcome to My Personal Website</h1>
+      </div>
+      <div class="img-personal w-full flex-1/2">
+        <img src="img/Personal Image.jpg" alt="Personal Image" />
+      </div>
+    </div>
+     
   </body>
 </html>
