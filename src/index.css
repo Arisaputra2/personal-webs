@@ -1,0 +1,26 @@
+/* src/index.css */
+@import "tailwindcss";
+
+body {
+  font-family: "Ancizer sans, sans-serif";
+}
+text {
+  font-family: "Ancizer serif, serif";
+  line-height: 1.5;
+  font-size: 1.25em;
+  color: #444444;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+::selection {
+  background-color: #ea620d;
+  color: #ffffff;
+}
